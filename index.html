@@ -6,7 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Cookbook</title>
 	<link rel="stylesheet" href="reset.css">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="./css/main.css">
+
 </head>
 <body>
 	<header>
@@ -14,26 +15,41 @@
 			<h1>Cookbook</h1>
 			<h2>Eesti maitsvaim retseptiveeb</h2>
 		</section>
-		<ul>
-			<li><a href="#">Retseptid</a></li>
-			<li><a href="#">Võta ühendust</a></li>
-		</ul>
+		<section class="nav-links">
+			<a href="#">Retseptid</a>
+			<a href="#">Võta ühendust</a>
+		</section>
 	</header>
 	<main>
 		<section class="big-image">
-			<img src="#" alt="">
+			<img src="./static/images/pizza.jpg" alt="pizza">
 		</section>
 		<section class="introduction">
-			<h2>Meist</h2>
-			<p>what ever</p>
-			<img src="#" alt="">
+			<div id="description">
+				<h2>Meist</h2>
+				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vehicula nulla vitae auctor tincidunt. Aliquam erat volutpat. Donec dignissim, est a tempor sollicitudin, ex ex dignissim massa, ut pretium mauris leo sit amet ipsum. Vivamus eu metus eget elit aliquam eleifend. Nam pellentesque mattis elit ut imperdiet. Pellentesque nisl metus, feugiat vitae augue quis, efficitur laoreet orci. Curabitur accumsan velit ante, non convallis odio eleifend vitae. Duis consectetur lacinia arcu non commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor dapibus neque, et varius augue viverra nec.
+
+Proin venenatis ullamcorper lacus, vel imperdiet diam fermentum a. Nunc tempus enim ac sapien tincidunt tempus. Phasellus a neque maximus lorem facilisis fringilla. Nulla eget nunc a massa tincidunt pharetra. Donec a porttitor urna. Praesent vel tristique risus. Maecenas non facilisis lacus. Fusce est odio, ornare nec nisi eu, pulvinar placerat sem. Suspendisse non purus sodales, porttitor augue vitae, varius diam. Phasellus erat sem, mollis consequat facilisis eget, cursus et justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+</p>
+			</div>
+			<img src="./static/images/about-us-image.jpg" alt="kokk tööd tegemas">
 		</section>
 		<section class="cuisines">
-			<a href=""><img src="" alt=""><p>Eesti köök</p></a>
-			<a href=""><img src="" alt=""><p>Aasia köök</p></a>
-			<a href=""><img src="" alt=""><p>Itaalia köök</p></a>
+			<a href=""><img src="./static/images/estonian-cusine.jpg" alt="verivorst"><p>Eesti köök</p></a>
+			<a href=""><img src="./static/images/asian-cusine.jpg" alt="aasia toit"><p>Aasia köök</p></a>
+			<a href=""><img src="./static/images/italian-cusine.jpg" alt="itaalia toit"><p>Itaalia köök</p></a>
 		</section>
 	</main>
-	<footer></footer>
+	<footer>
+		<section class="contact-info">
+			<p>12.02.2021</p>
+			<p>372 1234 4578</p>
+			<p>name@server.domain</p>
+		</section>
+		<section class="little-images">
+			<a href="facebook.com"><img src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=512&h=512" alt=""></a>
+			<a href="twitter.com"><img id="twitter" src="https://about.twitter.com/content/dam/about-twitter/en/brand-toolkit/brand-download-img-1.jpg.twimg.1920.jpg" alt=""></a>
+		</section>
+	</footer>
 </body>
 </html>
